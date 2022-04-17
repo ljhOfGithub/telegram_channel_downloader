@@ -13,7 +13,7 @@ from telethon.tl.types import MessageMediaWebPage, PeerChannel
 api_id = 10754897  # your telegram api id
 api_hash = 'e42a8b8fa4fc81078852b8ed3a14feb1'  # your telegram api hash
 bot_token = '5304906015:AAEAj2ihzk8Edkfm3J3z6bzGu4HmBWebrYM'  # your bot_token
-admin_id = 12314567  # your chat id
+admin_id = 1330459459  # your chat id
 save_path = '/home/telegram_channel_downloader'  # file save path
 upload_file_set = True  # set upload file to google drive
 drive_id = '5FyJClXmsqNw0-Rz19'  # google teamdrive id 如果使用OD，删除''内的内容即可。
@@ -24,7 +24,7 @@ filter_list = ['你好，欢迎加入 Quantumu', '\n']
 # filter chat id /过滤某些频道不下载
 blacklist = [1388464914, ]
 download_all_chat = False  # 监控所有你加入的频道，收到的新消息如果包含媒体都会下载，默认关闭
-filter_file_name = []  # 过滤文件后缀，可以填jpg、avi、mkv、rar等。
+filter_file_name = ['mp4','jpg','gif','png','mp3']  # 过滤文件后缀，可以填jpg、avi、mkv、rar等。
 # proxy = ("socks5", '127.0.0.1', 4444) #自行替换代理设置，如果不需要代理，请删除括号内容
 proxy = None
 # ***********************************************************************************#
